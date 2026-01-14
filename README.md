@@ -7,6 +7,15 @@ The goal of this challenge is to **learn React by building real projects**, unde
 
 ---
 
+## 🛠 Tech Stack
+
+![React](https://img.shields.io/badge/React-18-blue?logo=react)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript)
+![Vite](https://img.shields.io/badge/Vite-Build_Tool-purple?logo=vite)
+![ESLint](https://img.shields.io/badge/ESLint-Code_Quality-blueviolet?logo=eslint)
+
+---
+
 ## 🎯 Challenge Objectives
 
 - Learn React fundamentals to intermediate concepts in 30 days
@@ -18,6 +27,14 @@ The goal of this challenge is to **learn React by building real projects**, unde
 ---
 
 ## 📂 Repository Structure
+
+React-learning-Projects/
+│
+├── CardProject/
+├── CounterApp/
+├── TodoApp/
+├── .gitignore
+└── README.md
 
 This is a **single Git repository containing multiple independent React projects**.
 
@@ -31,12 +48,12 @@ Each project:
 
 ## 📌 Projects Progress
 
-| Day   | Project Name | Focus                                |
-| ----- | ------------ | ------------------------------------ |
-| Day 1 | CardProject  | React setup, ESLint, props, map()    |
-| Day 2 | CounterApp   | State management (useState)          |
-| Day 3 | TodoApp      | Events, forms, conditional rendering |
-| …     | More coming  | Hooks, routing, APIs                 |
+| Day      | Project Name                 | Focus                                |
+| -------- | ---------------------------- | ------------------------------------ |
+| ✅ Day 1 | [CardProject](./CardProject) | React setup, ESLint, props, map()    |
+| Day 2    | CounterApp                   | State management (useState)          |
+| Day 3    | TodoApp                      | Events, forms, conditional rendering |
+| …        | More coming                  | Hooks, routing, APIs                 |
 
 ---
 
