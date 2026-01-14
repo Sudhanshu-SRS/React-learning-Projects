@@ -11,13 +11,13 @@ body {
 }
 
 .parent {
-  width: 100vh;
-  height: 100vh;
+  width: 100vw;
   background-color: aqua;
   padding: 20px;
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .card {
@@ -29,6 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 .top {
