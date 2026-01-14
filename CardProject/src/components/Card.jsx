@@ -1,7 +1,7 @@
 import React from 'react'
 import { Bookmark } from "lucide-react";
 export const Card = (val) => {
-    console.log(val.CompanyName)
+   
   return (
      
       <div className="card">
