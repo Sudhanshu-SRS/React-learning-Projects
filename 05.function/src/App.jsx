@@ -9,10 +9,15 @@ function App() {
   console.log("click hogay haiii")
     
   }
+
+  let mouseenter=()=>{
+    console.log("Mouse yaha aya ");
+  }
+
   return (
     <>
      <div className='yo'> 
-      <button onClick={clickhoenpe}>outside function</button>
+      <button onMouseEnter={mouseenter} onClick={clickhoenpe}>outside function</button>
       <br />
       <button onDoubleClick={function(){
         console.log("andr ka function hu mai in line wala")
