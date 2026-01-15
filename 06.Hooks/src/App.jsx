@@ -17,14 +17,10 @@ function App() {
 
 
   return (
-    <div className='parent'>
-          <div className='display'>
-            <h1>{number}</h1>
-          </div>
-          <div className='btn'>
-            <button onWheel={increase}>increase</button>
-            <button onWheel={decrease}>Decrease</button>
-          </div>
+     <div>
+      <h1>{number}</h1>
+      <button onClick={increase}>increase</button>
+      <button onClick={decrease}>decrease</button>
     </div>
   )
 }
