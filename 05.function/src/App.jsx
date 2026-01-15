@@ -18,7 +18,11 @@ function App() {
     <>
      <div className='yo'> 
       <button onMouseEnter={mouseenter} onClick={clickhoenpe}>outside function</button>
-      <br />
+      
+      <button onClick={function(){
+        mouseenter();
+      }}>functin ke nadr wala function </button>
+
       <button onDoubleClick={function(){
         console.log("andr ka function hu mai in line wala")
       }}>inside function </button>
