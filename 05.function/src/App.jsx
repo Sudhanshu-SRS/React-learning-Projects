@@ -14,6 +14,12 @@ function App() {
     console.log("Mouse yaha aya ");
   }
 
+
+
+  function consoledikha(val){
+    console.log(val);
+  }
+
   return (
     <>
      <div className='yo'> 
@@ -26,6 +32,10 @@ function App() {
       <button onDoubleClick={function(){
         console.log("andr ka function hu mai in line wala")
       }}>inside function </button>
+
+      <input type="text" placeholder='kuch likh yaha pr' onChange={function(elem){
+        consoledikha(elem.target.value);
+      }}/>
 
      </div>
     </>
