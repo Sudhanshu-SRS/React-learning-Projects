@@ -4,17 +4,12 @@ const ObjectuseState = () => {
   
   
   const [UserO, setUserO] = useState({names:"sudhanshu",age:24,city:"delhi"})
-  
   function valuech(){
     const newobj={...UserO}
     newobj.age=23;
     newobj.names="john";
     setUserO(newobj)
   }
-  
-  
-  
-  
   return (
     <div>
       <h1>The Value Is {UserO.names}, {UserO.age}, {UserO.city}</h1>
