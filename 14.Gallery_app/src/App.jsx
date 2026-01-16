@@ -54,6 +54,7 @@ const App = () => {
             <button onClick={()=>{if(index>1){setIndex(index-1)}
               
             }} className="bg-yellow-300 text-black px-5 py-2 ">perv</button>
+            <h4 className="flex items-center">{index}</h4>
             <button onClick={()=>{
               setIndex(index+1)
             }} className="bg-yellow-300 text-black px-5 py-2 ">next</button>
