@@ -51,7 +51,7 @@ function App() {
 
 
   {/*How To Clear All LocalStorage */}
-  
+  localStorage.clear()
 
   return <></>;
 }
