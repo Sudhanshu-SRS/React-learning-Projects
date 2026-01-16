@@ -33,7 +33,24 @@ function App() {
   }
   const getarray = JSON.parse(localStorage.getItem("array"));
   console.log(getarray);
+{
+    /*Local Storage How To Save An Object */
+  }
+  const obj = {
+    name: "sudhanshu",
+    age: 24,
+    city: "nagpur",
+  };
 
+  localStorage.setItem('obj',JSON.stringify(obj))
+
+  {/*how To Get Object in Return */}
+
+  const orignalobj=JSON.parse(localStorage.getItem('obj'))
+  console.log(orignalobj);
+
+
+  {/*How To Clear All LocalStorage */}
   
 
   return <></>;
