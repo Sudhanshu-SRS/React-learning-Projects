@@ -22,7 +22,20 @@ function App() {
   }
   localStorage.removeItem("lastSelectedSize");
 
- 
+  {
+    /* Local Storage How Save Array and Object */
+  }
+  const arr = [1, 2, 4, 5, 6, 7, 8, 9, 0];
+  const array = localStorage.setItem("array", JSON.stringify(arr));
+  console.log(array);
+  {
+    /* To get array from local storage */
+  }
+  const getarray = JSON.parse(localStorage.getItem("array"));
+  console.log(getarray);
+
+  
+
   return <></>;
 }
 
