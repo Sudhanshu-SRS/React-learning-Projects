@@ -15,22 +15,20 @@ const App = () => {
   if (userdata.length > 0) {
     userdetail = userdata.map((val, id) => {
       return (
-        
-       <div key={id}>
+        <div key={id}>
           <a href={val.url} target="_blank">
-           <div className="flex flex-col text-center">
-            <div className="w-40 h-48 rounded-2xl overflow-hidden">
-              <img
-                className="h-full w-full object-cover"
-                src={val.download_url}
-                alt=""
-              />
+            <div className="flex flex-col text-center">
+              <div className="w-40 h-48 rounded-2xl overflow-hidden">
+                <img
+                  className="h-full w-full object-cover"
+                  src={val.download_url}
+                  alt=""
+                />
+              </div>
+              <h3>{val.author}</h3>
             </div>
-            <h3>{val.author}</h3>
-          </div>
-         </a>
-       </div>
-        
+          </a>
+        </div>
       );
     });
   }
@@ -44,10 +42,9 @@ const App = () => {
         >
           Get Image
         </button>
-        <div>
-          <div className="flex flex-wrap gap-4  items-center  ">{userdetail}</div>
+        <div className="flex flex-wrap gap-4 ">
+          <div>{userdetail}</div>
         </div>
-        
       </div>
     </div>
   );
