@@ -5,6 +5,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Faq from './pages/Faq';
 import Navbar from './components/Navbar';
+import Page404 from './pages/Page404';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
         <Route path='/faq' element={<Faq/>}/>
+        <Route path='*' element={<Page404/>}/>
       </Routes>
     </div>
   )
