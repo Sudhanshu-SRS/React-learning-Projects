@@ -9,11 +9,13 @@ import Page404 from './pages/Page404';
 import Name from './pages/Name';
 import Address from './pages/Address';
 import FaqDetails from './pages/FaqDetails';
+import Navbar3 from './components/Navbar3';
 
 const App = () => {
   return (
     <div>
       <Navbar/>
+      <Navbar3/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}>
